@@ -12,6 +12,7 @@ module.exports = {
 				"pri-II": "#FFFFFF",
 				"pri-III": "#010725",
 				"pri-IV": "#010D50",
+				"pri-V": "#323232",
 			},
 			screens: {
 				tablet: "850px",
