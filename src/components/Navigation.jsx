@@ -23,8 +23,11 @@ function Navigation() {
 
 				<nav className="hidden tablet:flex items-center space-x-5">
 					{NavigationData.map((item, index) => {
+						const consolee = () => {
+							console.log(index);
+						};
 						return (
-							<Link key={index} href={item.href}>
+							<Link key={index} href={item.href} onClick={consolee}>
 								{item.display}
 							</Link>
 						);
