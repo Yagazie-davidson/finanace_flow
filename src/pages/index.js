@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import Button from "@/components/Button";
 import Navigation from "@/components/Navigation";
 import GetCompanies from "@/components/GetCompanies";
+import CrytopoPortfolio from "@/components/CrytopoPortfolio";
 
 export default function Home() {
 	return (
@@ -40,6 +41,9 @@ export default function Home() {
 				</div>
 				<section className="mt-32">
 					<GetCompanies />
+				</section>
+				<section className="mt-32">
+					<CrytopoPortfolio />
 				</section>
 			</main>
 		</Layout>
