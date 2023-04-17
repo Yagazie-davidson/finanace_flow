@@ -4,6 +4,8 @@ import Button from "@/components/Button";
 import Navigation from "@/components/Navigation";
 import GetCompanies from "@/components/GetCompanies";
 import CrytopoPortfolio from "@/components/CrytopoPortfolio";
+import Iphones from "@/components/Iphones";
+import HomeContent from "@/components/HomeContent";
 
 export default function Home() {
 	return (
@@ -45,6 +47,10 @@ export default function Home() {
 				<section className="mt-32">
 					<CrytopoPortfolio />
 				</section>
+				<section className="mt-10">
+					<HomeContent />
+				</section>
+				<h1 className="mt-10">Hello to the fucking world</h1>
 			</main>
 		</Layout>
 	);
