@@ -5,10 +5,10 @@ import Image from "next/image";
 function HomeContent() {
 	return (
 		<>
-			<div className="flex justify-between items-center mx-14">
+			<div className="flex flex-col tablet:flex-row justify-between items-center tablet:mx-14">
 				<Iphones />
 				<div>
-					<h2 className="text-4xl font-bold mb-5 max-w-[475px]">
+					<h2 className="text-3xl tablet:text-4xl font-bold mb-5 max-w-[475px] mt-14 tablet:mr-0">
 						Earn daily rewards on your idle tokens
 					</h2>
 					<p className="text-lg mb-8 max-w-[470px] font-normal">
