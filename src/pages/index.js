@@ -7,6 +7,7 @@ import CrytopoPortfolio from "@/components/CrytopoPortfolio";
 import Iphones from "@/components/Iphones";
 import HomeContent from "@/components/HomeContent";
 import NewsCard from "@/components/NewsCard";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -61,6 +62,7 @@ export default function Home() {
             <NewsCard />
           </div>
         </section>
+        <Footer />
       </main>
     </Layout>
   );
