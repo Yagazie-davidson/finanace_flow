@@ -62,7 +62,6 @@ export default function Home() {
             <NewsCard />
           </div>
         </section>
-        <Footer />
       </main>
     </Layout>
   );
